@@ -9,6 +9,6 @@ class StatForm(forms.ModelForm):
 class StatData(forms.ModelForm):
     class Meta:
         model = Stat
-        fields = ['RunningBack']
+        fields = ['RunningBack1']
 
 
