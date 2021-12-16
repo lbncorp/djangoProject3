@@ -1,0 +1,15 @@
+{% block content %}
+<div class="container">
+<h2>Add Stats To Form</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Create</button>
+
+<h1>Hi There</h1>
+
+</form>
+</div>
+{% endblock %}
+
+
